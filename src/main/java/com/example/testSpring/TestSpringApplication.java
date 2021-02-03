@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-@ComponentScan({"com.example.testSpring.*"})
+@ComponentScan({"com.example.*"})
 public class TestSpringApplication {
 
 	public static void main(String[] args) {

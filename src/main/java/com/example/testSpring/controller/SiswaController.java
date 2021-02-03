@@ -22,8 +22,6 @@ public class SiswaController {
         SiswaModel siswaModel = new SiswaModel(siswaPayload.getName()) ; 
         siswaModel  = siswaRepo.save(siswaModel);
         return siswaModel;
-    
-    
     }
 
 

@@ -7,8 +7,8 @@ import javax.persistence.GenerationType;
 
 @Entity
 @Table(name = "siswa")
-
 public class SiswaModel { 
+	
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
